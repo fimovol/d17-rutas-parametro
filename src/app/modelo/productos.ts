@@ -6,3 +6,10 @@ export interface Dato {
     gananacia: number
     existencia: number
   }
+export interface Usuario{
+  nombres:string,
+  correo:string,
+  telefono:string,
+  pais:string,
+  existencia:string
+}
